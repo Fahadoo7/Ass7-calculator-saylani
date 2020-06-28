@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+    
+    <div id="container">
+        <div>
+            <input type="text" id="textinput">
+        </div>
+        <div>
+            <button id="cleanbtn" onclick="cleartext()">C</button>
+        </div>
+        <div>
+            <button class="btn" value="7" onclick="getNum('7')">7</button>
+            <button class="btn" value="8" onclick="getNum('8')">8</button>
+            <button class="btn" value="9" onclick="getNum('9')">9</button>
+            <button class="btn" value="X" onclick="getNum('*')">x</button>
+        </div>
+        <div>
+            <button class="btn" value="4" onclick="getNum('4')">4</button>
+            <button class="btn" value="5" onclick="getNum('5')">5</button>
+            <button class="btn" value="6" onclick="getNum('6')">6</button>
+            <button class="btn" value="-" onclick="getNum('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" value="1" onclick="getNum('1')">1</button>
+            <button class="btn" value="2" onclick="getNum('2')">2</button>
+            <button class="btn" value="3" onclick="getNum('3')">3</button>
+            <button class="btn" value="+" onclick="getNum('+')">+</button>
+        </div>
+        <div>
+            <button class="btnhalf" value="0" onclick="getNum('0')">0</button>
+            <button class="btnhalf" value="=" onclick="getRes()">=</button>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

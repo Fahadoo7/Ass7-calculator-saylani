@@ -1,0 +1,28 @@
+#container{
+    border: 2px solid red;
+    width:43.5%;
+    background-color:red;
+    padding: 5px;
+}
+#textinput{
+    box-sizing: border-box;
+    border: 2px solid grey;
+    width: 100%;
+}
+#cleanbtn{
+    box-sizing: border-box;
+    width:100%;
+    border:2px solid red;
+    
+}
+.btn{
+    box-sizing: border-box;
+    width: 38.6px;
+    border:2px solid red;
+    
+}
+.btnhalf{
+    box-sizing: border-box;
+    width: 48.6%;
+    border:2px solid red;
+}
